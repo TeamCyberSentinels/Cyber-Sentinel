@@ -8,5 +8,3 @@ This project focuses on developing an **AI-driven intelligent agent** capable of
 - **AI-Powered Compliance Detection**: Identifies non-compliant activities based on NIST guidelines.  
 - **Automated Ticketing System**: Opens service tickets when violations are detected.  
 - **Comprehensive Logging & Reporting**: Stores all compliance-related events in a structured database.  
-
-## 🏗️ Project Structure  
