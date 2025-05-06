@@ -61,7 +61,8 @@ cyber-sentinel-nist-ai/
 │   ├── server_logs_sample.csv            # Simulated logs
 │   └── simulated_logs_sample.csv         # AI-generated logs
 ├── docs/
-│   └── architecture_diagram.png          # (Optional) Visual system diagram
+│   └── System Overview.png
+│   ├── Sentinel Workflow            
 ```
 
 ---
@@ -114,8 +115,6 @@ urllib3==1.26.18
 * Average F1 Score: **91.4%**
 * Recall: **Excellent**, especially for high-severity violations
 * Ticket generation latency: **<5 seconds** per violation
-
-See `/docs` for test case visualizations and confusion matrices.
 
 ---
 
