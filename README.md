@@ -28,20 +28,6 @@ Cyber Sentinel is an intelligent agent-based system that automates the detection
 | `server_logs_sample` | Open Source    | Cybersecurity compliance & threat detection       |
 | `simulated_logs`     | Team-Generated | AI training with injected NIST attack patterns    |
 
----
-
-## ⚙️ Requirements
-
-- Python 3.8+
-- `boto3`
-- `requests`
-- AWS Lambda
-- Jira Cloud Access
-- SecureGPT API access
-
-To install dependencies:
-```bash
-pip install -r requirements.txt
 
 
 
