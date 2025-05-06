@@ -20,8 +20,6 @@ Cyber Sentinel is an intelligent agent-based system that automates the detection
 ---
 
 
----
-
 ## 📊 Datasets
 
 | Dataset Name         | Source         | Purpose                                           |
