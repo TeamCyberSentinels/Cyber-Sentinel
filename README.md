@@ -188,8 +188,3 @@ urllib3==1.26.18
 This project is part of George Mason University's DAEN Capstone and is intended for educational and demonstration purposes only.
 
 ---
-
-## 📬 Contact
-
-For inquiries or demo:
-📧 **[sbethi2@gmu.edu](mailto:sbethi2@gmu.edu)**
