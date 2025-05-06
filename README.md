@@ -179,7 +179,7 @@ urllib3==1.26.18
 * Deeksha Abbadasari
 * Kishore Karanam
 * Pavan Kumar Ravuri
-* * Sathwik Reddy Bethi
+* Sathwik Reddy Bethi
 
 ---
 
