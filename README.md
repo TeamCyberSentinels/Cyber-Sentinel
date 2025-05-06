@@ -1,33 +1,6 @@
-Here’s a suggested **GitHub repository structure** and a complete **README.md** for your project:
 
----
-
-### 📁 Recommended Repository Structure
 
 ```
-Cyber-Sentinel/
-│
-├── README.md
-├── requirements.txt
-│
-├── code/
-│   ├── securegpt_lambda_handler.py       # Code 1 - Multi-iteration NIST analysis
-│   └── jira_ticketing_lambda.py          # Code 2 - Jira ticket automation
-│
-├── datasets/
-│   ├── hdfs_logs_sample.csv
-│   ├── server_logs_sample.csv
-│   └── simulated_logs_sample.csv
-│
-└── docs/
-    └── architecture_diagram.png          # Optional: Add architecture image if available
-```
-
----
-
-### 📄 README.md
-
-```markdown
 # 🛡️ Cyber Sentinel: AI-Powered NIST Compliance Monitoring
 
 Cyber Sentinel is an intelligent agent-based system that automates the detection of non-compliant log entries based on NIST cybersecurity standards and auto-creates Jira tickets for high-priority violations. It leverages SecureGPT and AWS Lambda to perform a multi-iteration analysis workflow.
@@ -53,7 +26,7 @@ Cyber Sentinel is an intelligent agent-based system that automates the detection
 
 ```
 
-cyber-sentinel-nist-ai/
+cyber-Sentinel/
 ├── code/
 │   ├── securegpt\_lambda\_handler.py       # Main analysis pipeline
 │   └── jira\_ticketing\_lambda.py          # Automated Jira ticket creation
