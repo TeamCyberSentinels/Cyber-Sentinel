@@ -1,6 +1,3 @@
-
-
-```
 # 🛡️ Cyber Sentinel: AI-Powered NIST Compliance Monitoring
 
 Cyber Sentinel is an intelligent agent-based system that automates the detection of non-compliant log entries based on NIST cybersecurity standards and auto-creates Jira tickets for high-priority violations. It leverages SecureGPT and AWS Lambda to perform a multi-iteration analysis workflow.
@@ -22,24 +19,6 @@ Cyber Sentinel is an intelligent agent-based system that automates the detection
 
 ---
 
-## 📁 Repository Structure
-
-```
-
-cyber-Sentinel/
-├── code/
-│   ├── securegpt\_lambda\_handler.py       # Main analysis pipeline
-│   └── jira\_ticketing\_lambda.py          # Automated Jira ticket creation
-├── datasets/
-│   ├── hdfs\_logs\_sample.csv              # Real-world HDFS logs
-│   ├── server\_logs\_sample.csv            # Security and system logs
-│   └── simulated\_logs\_sample.csv         # Injected attack patterns for training
-├── docs/
-│   └── architecture\_diagram.png          # \[Optional] Workflow or architecture diagram
-├── README.md
-└── requirements.txt                      # Dependencies
-
-````
 
 ---
 
@@ -65,29 +44,6 @@ cyber-Sentinel/
 To install dependencies:
 ```bash
 pip install -r requirements.txt
-````
 
----
 
-## 🚀 Deployment
 
-Each script is designed to run as an AWS Lambda function:
-
-* `securegpt_lambda_handler.py` should be connected to an S3 trigger (on file upload).
-* `jira_ticketing_lambda.py` should be triggered by uploads to a specific S3 path (e.g., `results/`).
-
----
-
-## 🧪 Testing
-
-* Use sample datasets under `/datasets` to simulate uploads to S3.
-* Validate the output stored in the target S3 bucket (`nistanomolies`).
-* Check Jira for automatically created tickets.
-
----
-
-## 📜 License
-
-This project is for educational and research purposes.
-
----
