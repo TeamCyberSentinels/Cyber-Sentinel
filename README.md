@@ -58,7 +58,7 @@ cyber-sentinel-nist-ai/
 │   └── jira_ticketing_lambda.py          # Agent 2 - Jira integration
 ├── datasets/
 │   ├── hdfs_logs_sample.csv              # Real-world logs
-│   ├── server_logs_sample.csv            # Simulated logs
+│   ├── server_logs_sample.txt            # Simulated logs
 │   └── simulated_logs_sample.csv         # AI-generated logs
 ├── docs/
 │   └── System Overview.png
@@ -72,7 +72,7 @@ cyber-sentinel-nist-ai/
 | Dataset                     | Type         | Source            | Purpose                                |
 | --------------------------- | ------------ | ----------------- | -------------------------------------- |
 | `hdfs_logs_sample.csv`      | Real-world   | Loghub - LLNL     | Anomaly detection, fault prediction    |
-| `server_logs_sample.csv`    | Synthetic    | Team-generated    | Policy testing, NIST validation        |
+| `server_logs_sample.txt`    | Synthetic    | Team-generated    | Policy testing, NIST validation        |
 | `simulated_logs_sample.csv` | AI-generated | SecureGPT prompts | Training LLMs on structured violations |
 
 Each log entry is evaluated against NIST SP 800-53, SP 800-92, and SP 800-171 rules using structured prompts and validated through 3-phase iteration.
