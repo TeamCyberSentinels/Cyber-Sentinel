@@ -173,13 +173,13 @@ urllib3==1.26.18
 
 **Team Cyber Sentinel – DAEN 690, Spring 2025**
 
-* Sathwik Reddy Bethi
 * Harinipriya Vasu
 * Atharva Shrikhande
 * David Jampana Abraham Luther
 * Deeksha Abbadasari
 * Kishore Karanam
 * Pavan Kumar Ravuri
+* * Sathwik Reddy Bethi
 
 ---
 
